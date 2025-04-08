@@ -1,12 +1,12 @@
 # BedWars1058 arena configuration file.
-# Config By TrystageBedwars,at: https://github.com/4C01/minigames-Source
 # Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+# Config By TrystageBedwars,at: https://github.com/4C01/minigames-Source
 group: Solo
 display-name: 'Polygon'
 minPlayers: 2
 maxInTeam: 1
 allowSpectate: true
-spawn-protection: 5
+spawn-protection: 4
 shop-protection: 1
 upgrades-protection: 1
 generator-protection: 1
@@ -15,7 +15,7 @@ worldBorder: 300
 y-kill-height: -1
 max-build-y: 94
 disable-generator-for-empty-teams: false
-disable-npcs-for-empty-teams: true
+disable-npcs-for-empty-teams: false
 vanilla-death-drops: false
 use-bed-hologram: true
 allow-map-break: false
@@ -37,9 +37,12 @@ Team:
     Bed: -81.0,72.0,-30.0,0.0,0.0
     Shop: -93.5,72.0,-38.5,0.014462527818977833,0.17441679537296295
     Upgrade: -93.5,72.0,-20.5,-179.81491088867188,0.17441679537296295
-    Iron: []
-    Gold: []
-    Emerald: []
+    Iron:
+    - -96.5,71.5,-30.5,269.8325500488281,90.0
+    Gold:
+    - -96.5,71.5,-30.5,269.8325500488281,90.0
+    Emerald:
+    - -96.5,71.5,-30.5,269.8325500488281,90.0
   Pink:
     Color: PINK
     Spawn: -91.5,72.0,30.5,270.043701171875,1.600170373916626

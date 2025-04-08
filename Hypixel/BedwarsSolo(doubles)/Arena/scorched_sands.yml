@@ -1,6 +1,6 @@
 # BedWars1058 arena configuration file.
-# Config By TrystageBedwars,at: https://github.com/4C01/minigames-Source
 # Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+# Config By TrystageBedwars,at: https://github.com/4C01/minigames-Source
 group: Solo
 display-name: 'Scorched Sands'
 minPlayers: 2
@@ -15,7 +15,7 @@ worldBorder: 300
 y-kill-height: -1
 max-build-y: 93
 disable-generator-for-empty-teams: false
-disable-npcs-for-empty-teams: true
+disable-npcs-for-empty-teams: false
 vanilla-death-drops: false
 use-bed-hologram: true
 allow-map-break: false
