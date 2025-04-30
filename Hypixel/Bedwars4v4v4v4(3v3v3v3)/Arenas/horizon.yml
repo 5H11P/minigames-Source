@@ -1,5 +1,6 @@
 # BedWars1058 arena configuration file.
 # Documentation here: https://gitlab.com/andrei1058/BedWars1058/wikis/configuration/Arena-Configuration
+# Config By TrystageBedwars,at: https://github.com/4C01/minigames-Source
 group: 4v4v4v4
 display-name: ''
 minPlayers: 2
@@ -25,7 +26,6 @@ game-rules:
 - doImmediateRespawn:true
 - doWeatherCycle:false
 - doFireTick:false
-xp: true
 waiting:
   Loc: 0.5,149.0,0.5,180.15789794921875,2.7706377506256104
   Pos1: 15.5,156.73831166901664,15.5,133.64117431640625,8.372897148132324
